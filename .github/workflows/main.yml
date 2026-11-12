@@ -31,7 +31,10 @@ jobs:
           npm test
       - name: Build
         working-directory: zugwerk
-        run: npm run build
+        run: |
+          npm run build
+          zip -qr dist/zugwerk-source.zip . -x "node_modules/*" "dist/*"
+          cp README.md dist/README.md
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
