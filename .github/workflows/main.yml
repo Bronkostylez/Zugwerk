@@ -32,6 +32,8 @@ jobs:
       - name: Build
         working-directory: zugwerk
         run: |
+          sed -i "s/PRIVATE VORSCHAU · 0.2/ÖFFENTLICHE BETA · 0.2.1/" index.html
+          sed -i "s/✅ Fertig/Fertig/; s/🧠 Analysiere/Analysiere/" app.js
           npm run build
           zip -qr dist/zugwerk-source.zip . -x "node_modules/*" "dist/*"
           cp README.md dist/README.md
