@@ -22,4 +22,4 @@ Produktionsbuild: npm run build
 Tests: npm test
 
 ## Lizenzen
-App: GPL-3.0-or-later. Stockfish.js: GPLv3. chess.js: BSD-2-Clause. Eröffnungsdaten: CC0. Figuren von Colin M. L. Burnett: GPLv2 oder neuer. Twemoji-Grafiken: CC BY 4.0. Lizenztexte, Quellen und passende Engine-Buildmaterialien sind enthalten. Keine Verbindung zu oder Empfehlung durch Chess.com oder Lichess.
+App: GPL-3.0-or-later. Stockfish.js: GPLv3. chess.js: BSD-2-Clause. Eröffnungsdaten: CC0. Figuren von Colin M. L. Burnett: GPLv2 oder neuer. Twemoji-Grafiken: CC BY 4.0. Icons: Phosphor (MIT). Schrift: Nunito (SIL OFL 1.1). Lizenztexte, Quellen und passende Engine-Buildmaterialien sind enthalten. Keine Verbindung zu oder Empfehlung durch Chess.com oder Lichess.
