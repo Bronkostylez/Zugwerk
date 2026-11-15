@@ -6,7 +6,7 @@ Schachpartien verstehen: PGN einfügen, Züge nachspielen und mit Stockfish 19 L
 - Lokale Engine-Analyse mit Bewertungsbalken, Varianten und Zugbewertungen.
 - Eigener Genauigkeitsindex und eine lokale Eröffnungsreferenz.
 - Öffentliche Chess.com-Partien importieren und Endspiele über Lichess prüfen.
-- Optionale KI-Erklärungen über lokales Ollama oder die kostenlose Cloud-KI Pollinations, nach ausdrücklichem Einschalten ab 16. Überflug der engine-markierten Stellen, auf Wunsch alle Züge in Zehnerpaketen.
+- Optionale KI-Erklärungen über lokales Ollama oder die kostenlose Cloud-KI Pollinations, nach ausdrücklichem Einschalten ab 16. Deine Zustimmung bleibt nur in deinem Browser gespeichert, bis du den Haken entfernst. Überflug der engine-markierten Stellen, auf Wunsch alle Züge in Zehnerpaketen.
 
 ## Grenzen
 Die Bewertungen sind eigene Regeln und nicht identisch mit Chess.com. Begrenzte Suchzeit kann Fehler übersehen. Online-Eröffnungsstatistiken sind noch nicht freigeschaltet. KI-Erklärungen können falsch, knapp oder holprig sein und sind nicht engine-geprüft. Maßgeblich bleibt Stockfish. Pollinations erlaubt aktuell eine Anfrage alle 30 Sekunden pro öffentlicher IP und garantiert keine Verfügbarkeit. iPhone/Safari sind noch nicht vollständig getestet.
@@ -14,7 +14,7 @@ Die Bewertungen sind eigene Regeln und nicht identisch mit Chess.com. Begrenzte 
 ## Datenschutz
 Die Schachberechnung erfolgt auf deinem Gerät. Online-Abfragen erfolgen nur per Klick: Chess.com erhält beim Import den eingegebenen Benutzernamen, Lichess bei einer Abfrage die gewählte Stellung. Ein verbundenes Ollama-Modell erhält bei einer KI-Erklärung die ausgewählten Engine-Fakten.
 
-Die Cloud-KI ist standardmäßig aus. Wenn du sie einschaltest, werden beim Klick auf "KI-Erklärung", "Überflug" oder "Alle Züge erklären" die jeweiligen Züge und Engine-Fakten an text.pollinations.ai gesendet: Zugnotation, Einstufung, Bewertung, empfohlener Zug, mögliche Fortsetzung und gegebenenfalls der Markierungsgrund. Pollinations sieht dabei auch deine IP-Adresse. Spielernamen und PGN-Kopfdaten werden nicht gesendet. Der Dienst ist ab 16; seine Datenschutzerklärung steht unter https://pollinations.ai/privacy. Zugwerk selbst erfordert keinen Login und sendet keine Analyse-Telemetrie.
+Die Cloud-KI ist standardmäßig aus. Wenn du sie einschaltest, werden beim Klick auf "KI-Erklärung", "Überflug" oder "Alle Züge erklären" die jeweiligen Züge und Engine-Fakten an text.pollinations.ai gesendet: Zugnotation, Einstufung, Bewertung, empfohlener Zug, mögliche Fortsetzung und gegebenenfalls der Markierungsgrund. Pollinations sieht dabei auch deine IP-Adresse. Spielernamen und PGN-Kopfdaten werden nicht gesendet. Der Dienst ist ab 16; seine Datenschutzerklärung steht unter https://pollinations.ai/privacy. Die gespeicherte Cloud-Einstellung liegt nur lokal in deinem Browser und wird nicht übertragen. Zugwerk selbst erfordert keinen Login und sendet keine Analyse-Telemetrie.
 
 ## Starten
 npm ci
